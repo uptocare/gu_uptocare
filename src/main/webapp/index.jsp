@@ -15,8 +15,8 @@
         <img src="${ctx}/images/doctor.svg" class="img-fluid rounded-circle shadow doctor-photo" alt="鄧豪偉 醫師">
       </div>
       <div class="col-md-8">
-        <h1 class="display-6 fw-bold">鄧豪偉 醫師</h1>
-        <p class="lead text-body-secondary">腫瘤內科 · 泌尿道腫瘤照護</p>
+        <h1 class="display-6 fw-bold">楊牧穎 醫師</h1>
+        <p class="lead text-body-secondary">泌尿外科醫師 · 泌尿道腫瘤照護</p>
         <p>這裡分享泌尿道腫瘤的治療新知、門診重要訊息，以及臨床上的經驗與省思，希望陪伴病友與家屬走得更安心。</p>
         <a href="${ctx}/about.jsp" class="btn btn-primary">認識醫師</a>
         <a href="${ctx}/posts.jsp?type=NEWS" class="btn btn-outline-primary ms-2">最新訊息</a>
