@@ -1,0 +1,17 @@
+# Eclipse 編譯輸出
+build/
+bin/
+*.class
+
+# IDE / OS
+.metadata/
+.idea/
+*.iml
+Thumbs.db
+Desktop.ini
+
+# Dreamweaver
+_notes/
+
+# 本機設定與密碼（之後若有 DB/OAuth 設定檔放這裡）
+*.local.properties

@@ -1,0 +1,10 @@
+</main>
+<footer class="bg-body-tertiary border-top py-4 mt-5">
+  <div class="container small text-body-secondary">
+    <p class="mb-1">本站內容僅供衛教參考，不作為醫療診斷或治療之依據；實際治療請與您的臨床醫師詳細討論。</p>
+    <p class="mb-0">Copyright &copy; 2026 Articles by HaoWei Teng 鄧豪偉 醫師 · uptocare.com</p>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

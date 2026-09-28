@@ -1,0 +1,21 @@
+<%-- 導覽選單：新增/修改選單項目只要改這個檔案。activeNav 由各頁面設定。 --%>
+<nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="${ctx}/">
+      <i class="bi bi-heart-pulse text-primary"></i> 泌尿道腫瘤即時照護網
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+            aria-controls="mainNav" aria-expanded="false" aria-label="切換選單">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link ${activeNav == 'home' ? 'active' : ''}" href="${ctx}/">首頁</a></li>
+        <li class="nav-item"><a class="nav-link ${activeNav == 'about' ? 'active' : ''}" href="${ctx}/about.jsp">關於醫師</a></li>
+        <li class="nav-item"><a class="nav-link ${activeNav == 'news' ? 'active' : ''}" href="${ctx}/posts.jsp?type=NEWS">重要訊息</a></li>
+        <li class="nav-item"><a class="nav-link ${activeNav == 'share' ? 'active' : ''}" href="${ctx}/posts.jsp?type=SHARE">經驗分享</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://crc.uptocare.com/" target="_blank" rel="noopener">大腸直腸癌照護網</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
